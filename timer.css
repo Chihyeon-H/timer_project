@@ -1,0 +1,75 @@
+body {
+  /* background: radial-gradient(
+      96.74% 276.79% at 3.59% 5.28%,
+      #f0f4ff 0%,
+      #a5b6ee 100%
+    ) */
+  background-color: antiquewhite;
+}
+
+.timerBox {
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  width: 400px;
+  height: 360px;
+  top: 180px;
+  left: 440px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  margin: 0 auto;
+}
+
+.timerTitle {
+  font-family: Pretendard;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.64px;
+  text-align: center;
+  color: #fff;
+}
+
+.groupImg {
+  justify-self: center;
+}
+
+.timerSectionBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hourBox {
+  background: linear-gradient(314.28deg, #304577 0%, #4c65a0 83%);
+  width: 80px;
+  height: 80px;
+  gap: 0px;
+  border: 1px solid #354971;
+  opacity: 0px;
+}
+
+.minBox {
+  background: linear-gradient(314.28deg, #304577 0%, #4c65a0 83%);
+  width: 80px;
+  height: 80px;
+  gap: 0px;
+  border: 1px solid #354971;
+  opacity: 0px;
+}
+
+.secBox {
+  background: linear-gradient(314.28deg, #304577 0%, #4c65a0 83%);
+  width: 80px;
+  height: 80px;
+  gap: 0px;
+  border: 1px solid #354971;
+  opacity: 0px;
+}
+
+.startBtn {
+  border: 0;
+  background-color: transparent;
+}
+
+.resetBtn {
+  border: 0;
+  background-color: transparent;
+}
